@@ -26,4 +26,4 @@ print(describe(int))  # should print: the integer type
 
 ## License
 
-Same as Python (as 99% of it is copied from there), see `LICENSE` file.
+Same as CPython (as 99% of it is copied from there), see `LICENSE` file.
