@@ -4,13 +4,14 @@ import collections.abc
 import decimal
 from itertools import permutations
 import sys
-from test import support
 import typing
 import unittest
 import unittest.mock
 import contextlib
 
 import singledispatch_with_type_arg_support as functools
+
+from . import support
 
 
 @contextlib.contextmanager
