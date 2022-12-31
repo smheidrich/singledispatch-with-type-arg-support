@@ -1,3 +1,5 @@
+# Taken from CPython's Lib/test/test_functools.py and stripped of everything
+# not part of singledispatch's tests.
 import abc
 import collections
 import collections.abc
