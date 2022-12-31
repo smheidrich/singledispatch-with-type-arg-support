@@ -2,9 +2,15 @@
 
 Standalone "preview" of https://github.com/python/cpython/pull/100624
 
-Requires a sufficiently recent Python 3.12 version (some tests fail with
-earlier 3.12 versions and versions older than 3.12, although the main
-functionality might still work - do your own testing).
+## Installation
+
+**Requires a sufficiently recent Python 3.12 version** (some tests fail with
+earlier 3.12 versions, although the main functionality might still work - do
+your own testing).
+
+```bash
+pip3 install singledispatch-with-type-arg-support
+```
 
 ## Example
 
