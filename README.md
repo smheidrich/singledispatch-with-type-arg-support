@@ -2,6 +2,8 @@
 
 Standalone "preview" of https://github.com/python/cpython/pull/100624
 
+Based off `cpython` commit c4c5790120beabed83ce5855f18d209ab8324434
+
 ## Installation
 
 **Requires a sufficiently recent Python 3.12 version** (some tests fail with

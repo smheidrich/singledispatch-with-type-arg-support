@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "singledispatch-with-type-arg-support"
-version = "0.1.1"
+version = "0.1.2"
 description = "singledispatch with support for type/class arguments"
 authors = ["smheidrich <smheidrich@weltenfunktion.de>", "CPython contributors"]
 packages = [
