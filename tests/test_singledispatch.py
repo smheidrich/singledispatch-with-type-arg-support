@@ -14,35 +14,6 @@ import singledispatch_with_type_arg_support as functools
 from . import support
 
 
-@contextlib.contextmanager
-def replaced_module(name, replacement):
-    original_module = sys.modules[name]
-    sys.modules[name] = replacement
-    try:
-        yield
-    finally:
-        sys.modules[name] = original_module
-
-def capture(*args, **kw):
-    """capture all positional and keyword arguments"""
-    return args, kw
-
-
-def signature(part):
-    """ return the signature of a partial object """
-    return (part.func, part.args, part.keywords, part.__dict__)
-
-class MyTuple(tuple):
-    pass
-
-class BadTuple(tuple):
-    def __add__(self, other):
-        return list(self) + list(other)
-
-class MyDict(dict):
-    pass
-
-
 class TestSingleDispatch(unittest.TestCase):
     def test_simple_overloads(self):
         @functools.singledispatch
