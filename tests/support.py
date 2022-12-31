@@ -1,5 +1,5 @@
 """Supporting definitions for the Python regression tests."""
-# Taken from CPython's Lib/tests/support/__init__.py and stripped of everything
+# Taken from CPython's Lib/test/support/__init__.py and stripped of everything
 # not required for singledispatch tests.
 
 import contextlib
